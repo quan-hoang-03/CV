@@ -1,0 +1,190 @@
+.CV{
+    margin: 20px 0;
+}
+.CV__fresher{
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #6e6b6b52;
+}
+.CV__main{
+    display: flex;
+}
+.CV-avt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avt{
+    width: 150px;
+    height: 150px;
+    margin: 25px 0 25px 0;
+    border-radius: 50%;
+}
+.CV-infor{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%;
+    background-color: #d5d5d554;
+    border-right: 1px solid #6e6b6b52;
+}
+.infor{
+    padding: 0 10px 0 10px;
+}
+.infor li{
+    list-style: none;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.summary{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 50px;
+}
+.summary__intro{
+    padding: 0 10px 0 10px;
+    margin-top: 20px;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 50px;
+
+}
+.skill__intro{
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+.skill__view{
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+.skill__view-rate{
+    margin-right: 30px;
+    font-size: small;
+}
+.rate{
+    color: #cd1b2fde;
+}
+.gachngang{
+    font-size: 54px;
+    margin : -1px 32px;
+    color: #6666664f;
+}
+.title-infor{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+/* profile */
+.CV-profile{
+    padding-left: 5px;
+    padding-right: 5px; 
+    width :70%;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 18px;
+    font-weight: 800;
+    color: #fd8ca0;
+}
+.title-bottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-top: -10px;
+    font-weight: 800;
+    color: #646262;
+}
+.eudcation{
+    font-size: 20px;
+    display: flex;
+    text-align: center; 
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0bb5f4;
+    margin-left: 30px;
+}
+.title--header{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.title--infor{
+    font-size: 20px;
+    font-weight: 600;
+}
+.title--header ul{
+    padding: 0;
+    color: rgb(124 123 123);
+    font-size: 18ox;
+}
+.title--header ul p{
+    color: #494848;
+}
+.title--header ul li{
+    margin: 15px 0 0 40px;
+    color: #494848;
+}
+.experience{
+    font-size: 20px;
+    display: flex;
+    text-align: center; 
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0bb5f4;
+    margin-left: 30px;
+}
+.activities{
+    font-size: 20px;
+    display: flex;
+    text-align: center; 
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0bb5f4;
+    margin-left: 30px;
+}
+.references{
+    font-size: 20px;
+    display: flex;
+    text-align: center; 
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0bb5f4;
+    margin-left: 30px;
+}
+.title--infor-name{
+    font-size: 17px;
+    font-weight: 600;
+}
+.reference-infor{
+    margin-top: 5px;
+}
+.reference-infor li{
+    list-style: none;
+    color: rgb(124 123 123);
+    margin-bottom: 5px;
+}
+/* base */
+.btn{
+    font-size: 15px;
+    margin-right: 15px;
+    border-radius: 4px;
+    color: #000000c7;
+}
